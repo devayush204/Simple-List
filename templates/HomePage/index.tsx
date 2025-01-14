@@ -14,7 +14,7 @@ const HomePage = () => {
     return (
         <div className={styles.outer}>
             <SimpleList className={styles.simpleList} />
-            <Link className={styles.logo} href="/">
+            <Link className={styles.logo} href="https://github.com/devayush204" target="_blank">
                 <NextImage
                     src="/images/demo/logo.png"
                     priority={true}
@@ -26,13 +26,14 @@ const HomePage = () => {
             <div className="">
                 <Link
                     className={styles.link}
-                    href="https://ui8-bento-landing.vercel.app/"
+                    target="_blank"
+                    href="https://simple-list-landing-page.vercel.app/"
                 >
                     <Icon name="logout" />
                 </Link>
                 <a
                     className={styles.link}
-                    href="https://ui8.net/ui8/products/bento-cards-simplelist"
+                    href="https://ui-forge.vercel.app/"
                     target="_blank"
                 >
                     <Icon name="bag" />
